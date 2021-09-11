@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movies_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="gst.trainingcourse.smartmovie.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailedMovieFragment"
+            app:destination="@id/detailedMovieFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/genresFragment"
+        android:name="gst.trainingcourse.smartmovie.ui.GenresFragment"
+        android:label="fragment_genres"
+        tools:layout="@layout/fragment_genres">
+        <action
+            android:id="@+id/action_genresFragment_to_listMovieByGenreFragment"
+            app:destination="@id/listMovieByGenreFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/listMovieByGenreFragment"
+        android:name="gst.trainingcourse.smartmovie.ui.ListMovieByGenreFragment"
+        android:label="fragment_list_movie_by_genre"
+        tools:layout="@layout/fragment_list_movie_by_genre">
+        <argument
+            android:name="genre"
+            app:argType="gst.trainingcourse.smartmovie.model.Genre" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailedMovieFragment"
+        android:name="gst.trainingcourse.smartmovie.ui.DetailedMovieFragment"
+        android:label="fragment_detailed_movie"
+        tools:layout="@layout/fragment_detailed_movie">
+        <argument
+            android:name="result"
+            app:argType="gst.trainingcourse.smartmovie.model.Result" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="gst.trainingcourse.smartmovie.ui.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_detailedMovieFragment"
+            app:destination="@id/detailedMovieFragment" />
+    </fragment>
+</navigation>

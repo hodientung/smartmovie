@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/drawable/gradient.xml" value="0.2203125" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/drawable/search.xml" value="0.2203125" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/drawable/star.xml" value="0.2203125" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/drawable/star_yellow.xml" value="0.2203125" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/custom_layout.xml" value="0.19647822057460612" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/custom_layout_network.xml" value="0.22" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/fragment_detailed_movie.xml" value="0.25" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/fragment_genres.xml" value="0.10869565217391304" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/fragment_list_movie_by_genre.xml" value="0.14" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/fragment_movie.xml" value="0.22" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/fragment_now_playing.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/fragment_popular.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/fragment_search.xml" value="0.12" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/fragment_top_rated.xml" value="0.1" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/fragment_up_comming.xml" value="0.1" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/item_cast.xml" value="0.14" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/item_category.xml" value="0.10643115942028986" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/item_genres.xml" value="0.12228260869565218" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/item_movie.xml" value="0.13632246376811594" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/item_search.xml" value="0.25" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/layout/item_similar_movies.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/menu/menu_exchange_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tungd/AndroidStudioProjects/SmartMovie/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
